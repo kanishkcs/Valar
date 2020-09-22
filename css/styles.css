@@ -67,9 +67,9 @@ p {
 
 /* Image */
 .title-img{
-  width: 60%;
+  width: 40%;
   transform: rotate(25deg);
-  margin-left: 50%;
+  margin-left: 40%;
 }
 
 /* fontawesome */
