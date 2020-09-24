@@ -1,5 +1,5 @@
 #title {
-  /* 1a1a2e; */
+  /* #1b262c */
   background-color:#1b262c;
 }
 
@@ -20,14 +20,16 @@ h1 {
 }
 
 h2{
-  font-family: "Merriweather";
+  font-family: "Montserrat";
   font-size: 2rem;
   line-height: 4rem;
+
 }
 
 h3 {
   font-family: "Montserrat";
   font-size: 1.5rem;
+  padding: 1%;
 }
 
 p {
@@ -36,7 +38,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -59,9 +61,16 @@ p {
 }
 
 /* Dowbload buttons */
-.downlooad-button {
-  margin: 15% 3% 5% 0;
+.downlooad-buttontop {
+  margin: 5% 3% 5% 0;
   font-weight: normal;
+  font-size: 1rem;
+}
+
+.download-buttondwn{
+  margin: 1.5% 3% 3% 0;
+  font-weight: bold;
+  font-family: "Ubuntu"
   font-size: 1rem;
 }
 
@@ -70,6 +79,9 @@ p {
   width: 50%;
   transform: rotate(25deg);
   margin-left: 40%;
+  position: absolute;
+
+
 }
 
 /* fontawesome */
@@ -86,6 +98,10 @@ p {
 /* Feautrer section */
 #features {
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
 }
 
 .feature-box{
@@ -120,4 +136,92 @@ p {
 .press-logo {
   width : 15%;
   margin: 20px 20px 50px;
+}
+
+
+
+/* Pricing */
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.cta{
+  text-align: center;
+  background-color:#1b262c;
+  color: white;
+
+
+}
+
+
+@media screen and (max-width: 1028px){
+
+h1 {
+  font-size: 3rem;
+  font-family: "Montserrat";
+
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+
+  h3 {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    padding: 1%;
+
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.5rem;
+}
+
+#testimonials{
+
+  text-align: center;
+  background-color: #1b262c;
+  color: white;
+  font-size: 2.5rem;
+}
+
+
+
+
+
+
+.title-img {
+  position: static;
+  transform: rotate(0);
+  margin: 0 0;
+}
+
+
+#title {
+  text-align: center;
+
+}
+#cta {
+margin-top: 5%;
+}
+
+.download-buttondwn{
+  margin: 3% 3% 5% 0;
+  font-weight: bold;
+  font-family: "Ubuntu"
+  font-size: 1rem;
+}
+.downlooad-buttontop {
+  margin: 5% 3% 5% 0;
+  font-weight: normal;
+  font-size: 2rem;
+}
 }
