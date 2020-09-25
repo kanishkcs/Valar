@@ -1,29 +1,14 @@
-#title {
-  /* #1b262c */
-  background-color: #1b262c;
-}
-
 body {
   font-size: 1rem;
   font-family: "Montserrat";
+  text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
-  font-size: 3rem;
-  font-weight: normal;
-  line-height: 1.5;
-  color: white;
-}
-
-h2 {
-  font-family: "Montserrat";
-  font-size: 2rem;
-  line-height: 4rem;
 }
 
 h3 {
-  font-family: "Montserrat";
   font-size: 1.5rem;
   padding: 1%;
 }
@@ -32,8 +17,32 @@ p {
   color: #8f8f8f;
 }
 
+/* Heading */
+.big-heading{
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: white;
+  text-align: left;
+}
+
+.review-heading {
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+
+
+
+/* Container */
 .container-fluid {
   padding: 3% 15% 7%;
+}
+
+/* section */
+.colored-section {
+  background-color: #1b262c;
+  color: white;
 }
 
 /* Navigation Bar */
@@ -60,13 +69,14 @@ p {
   margin: 5% 3% 5% 0;
   font-weight: normal;
   font-size: 1rem;
+
 }
 
 .download-buttondwn {
-  margin: 1.5% 3% 3% 0;
+  margin: 3% 3% 5% 0;
   font-weight: bold;
   font-family: "Ubuntu"
-    font-size: 1rem;
+
 }
 
 /* Image */
@@ -82,6 +92,7 @@ p {
   color: #1b262c;
 }
 
+/* Icon */
 .icon {
   color: #a4b494;
   margin-bottom: 1rem;
@@ -103,12 +114,6 @@ p {
 /* Testimonial */
 #testimonials {
   text-align: center;
-  background-color: #1b262c;
-  color: white;
-}
-
-.carousel-item {
-  padding: 4% 15%;
 }
 
 .testimonials-img {
@@ -117,9 +122,13 @@ p {
   border-radius: 100%;
 }
 
+/* Slide show/ carousel */
+.carousel-item {
+  padding: 4% 15%;
+}
+
 #press {
   text-align: center;
-  background-color: #1b262c;
   padding: 3%;
 }
 
@@ -139,14 +148,8 @@ p {
 }
 
 /* CTA */
-.cta-heading {
-  font-size: 3.5rem;
-}
-
 #cta {
   text-align: center;
-  background-color: #1b262c;
-  color: white;
   padding: 7% 15%;
 }
 
@@ -159,26 +162,9 @@ p {
 
 .social-icon {
   margin: 25px 15px;
-
 }
 
 @media screen and (max-width: 1028px) {
-  h1 {
-    font-size: 3rem;
-    font-family: "Montserrat";
-  }
-
-  h2 {
-    font-family: "Montserrat";
-    font-size: 3rem;
-    line-height: 4rem;
-  }
-
-  h3 {
-    font-family: "Montserrat";
-    font-size: 2rem;
-    padding: 1%;
-  }
 
   p {
     color: #8f8f8f;
@@ -186,9 +172,6 @@ p {
   }
 
   #testimonials {
-    text-align: center;
-    background-color: #1b262c;
-    color: white;
     font-size: 2.5rem;
   }
 
@@ -206,16 +189,5 @@ p {
     margin-top: 5%;
   }
 
-  .download-buttondwn {
-    margin: 3% 3% 5% 0;
-    font-weight: bold;
-    font-family: "Ubuntu"
-      font-size: 1rem;
-  }
 
-  .downlooad-buttontop {
-    margin: 5% 3% 5% 0;
-    font-weight: normal;
-    font-size: 2rem;
-  }
 }
